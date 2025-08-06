@@ -9,7 +9,6 @@ __version__ = (1, 0, 0)
 
 import asyncio
 import os
-import SessionBus
 from telethon.tl.functions.account import UpdateProfileRequest
 from .. import loader, utils
 from dbus import SessionBus  # На Arch Linux это работает!
